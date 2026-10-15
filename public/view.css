@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}

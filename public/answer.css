@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+.Form {
+    width: 720px;
+    /*margin: 40px auto;*/
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 3.2rem;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}

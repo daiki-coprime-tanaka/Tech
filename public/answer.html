@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>sample answer form</title>
+        <link rel="stylesheet" href="./answer.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <h1>sample answer form</h1>
+        </header>
+        <main>
+            <div class="Form">
+                <form id="surveyForm">
+                    <label><p>名前</p><input type="text" id="name" required></label>
+                    <label><p>ご意見</p>
+                    <textarea id="feedback" rows="8" required></textarea></label>
+                    <button type="submit">送信</button>
+                </form>
+                <p id="message"></p>
+                <p>ロード: <span id="Load"></span></p>
+                <p>送　信: <span id="Send"></span></p>
+                <p>所　要: <span id="Take"></span>秒</p>
+                <!--<p>
+                    <a href="answers.html"   回答一覧を見る></a>
+                </p>-->
+            </div>
+        </main>
+        <footer>
+            <p>This is a test and "tech" form.
+            Prepare proper form by inheritating this.</p>
+
+            <p>Created By daiki TANAKA, 14, Oct, 2026</p>
+        </footer>
+        <script src="answer.js"></script>
+    </body>
+</html>
 
