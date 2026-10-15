@@ -1,13 +1,20 @@
 {
   "name": "survey-app",
   "version": "1.0.0",
+
   "main": "app.js",
+
   "scripts": {
     "start": "node app.js"
   },
+
+  "engines": {
+    "node": "20.x"
+  },
+
   "dependencies": {
     "body-parser": "^2.3.0",
     "express": "^5.3.0",
-    "sqlite3": "^6.0.1"
+    "sqlite3": "^5.1.7"
   }
 }
