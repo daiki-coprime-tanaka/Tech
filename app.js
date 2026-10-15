@@ -5,7 +5,7 @@ const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.Port || 3000;
 
 // DB初期化
 const db = new sqlite3.Database("./survey.db");
@@ -93,9 +93,7 @@ app.get("/api/answers", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(
-        `Server running at http://localhost:${PORT}`
-    );
+    console.log(`Server running on port ${PORT}`);
 });
 
 /*const express = require('express');
