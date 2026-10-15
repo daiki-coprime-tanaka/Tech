@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+ul.dep0 >  li{
+    list-style-type:disc;
+}
+
+ul.dep1 > li{
+    list-style-type:square;
+}
+
+button.Public {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #007bff;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+button.Public:active {
+  /*ボタンを押したとき*/
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+button.Private {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #ff007b;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+
+button.Private:active {
+  /*ボタンを押したとき*/
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
