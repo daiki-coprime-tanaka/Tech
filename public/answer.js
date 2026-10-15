@@ -25,7 +25,7 @@ form.addEventListener(
         try {
 
             const response = await fetch(
-                "/submit",
+                "../submit",
                 {
                     method: "POST",
                     headers: {
